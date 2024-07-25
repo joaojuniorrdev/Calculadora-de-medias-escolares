@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de médias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img src="images/logo.png" alt="chapeu e diploma">
+            <h1>Calculadora de médias escolares</h1>
+        </header>
+    
+        <form action="">
+            <input type="text" placeholder="Insira o nome da materia" required id="nomef">
+            <input type="number" min="0" max="10" required placeholder="Nota" id="notaf">
+            <button onclick="adicionar()">Adicionar+</button>
+        </form>
+    
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <td>Nome da atividade</td>
+                    <td>Nota da atividade</td>
+                    <td>Aprovado?</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Nota media:</td>
+                    <td id="media"></td>
+                    <td><span class="resultado" id="res">?</span></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

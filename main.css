@@ -1,0 +1,82 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E7E7E7;
+    padding-top: 100px;
+}
+
+div#container{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 42px;
+    margin-right: 16px;
+}
+
+form{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+form input{
+    padding: 8px;
+    margin-right: 10px;
+    
+}
+
+
+
+form button{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+form button:hover{
+    border: 2px solid black ;
+}
+
+table{
+    padding: 20px 0;
+}
+
+
+table td{
+    padding-right: 20px;
+    padding: 10px ;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+table img{
+    width: 36px;
+}
+
+.resultado{
+    background-color: black;
+    color: white;
+    font-weight:700;
+    border-radius: 5%;
+    padding: 8px;
+}
+
+.aprovado{
+    background-color: green;
+}
+
+.reprovado{
+    background-color: red;
+}
